@@ -33,7 +33,7 @@ W projekcie wykorzystano:
 * **Python 3.x**
 * **NumPy** – obliczenia numeryczne
 * **Matplotlib / Seaborn** – wizualizacja danych
-* **PyTorch / TensorFlow / Keras** *(opcjonalnie, zależnie od wersji projektu)*
+* **PyTorch / Einops / TensorFlow / Keras** *(opcjonalnie, zależnie od wersji projektu)*
 
 ---
 
@@ -41,14 +41,10 @@ W projekcie wykorzystano:
 
 ```
 .
-├── data/           # Zbiory danych
-├── src/            # Kod źródłowy
-│   ├── model.py    # Definicja sieci neuronowej
-│   ├── train.py    # Proces trenowania
-│   └── utils.py    # Funkcje pomocnicze
-├── results/        # Wyniki i wykresy
+
 ├── README.md
-└── requirements.txt
+├──introduction/
+│   ├── Hoppfirld_2.pdf
 ```
 
 ---
@@ -104,10 +100,5 @@ Po zakończeniu trenowania:
 
 ## 👤 Autor
 
-Projekt wykonany w celach edukacyjnych.
+Wiktoria Grodzka, Maria Harbaty
 
----
-
-## 📄 Licencja
-
-Projekt udostępniony na licencji MIT.
